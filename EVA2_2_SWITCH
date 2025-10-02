@@ -1,0 +1,46 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package eva2_2_switch;
+
+import java.util.Scanner;
+
+public class EVA2_2_SWITCH {
+
+    public static void main(String[] args) {
+       //SWITCH --> OPCION MULTIPLE
+       Scanner captu = new Scanner(System.in);
+       System.out.println("Dia de la semana en numero (1-7):");
+       int dia = captu.nextInt();
+       /*(dia == 1){
+          System.out.printl("Lunes");
+       else if(dia == 2){
+       System.out.println("Martes");
+       */
+       switch(dia){//OPCIONES --> CAOS
+        case 1:
+               System.out.println("Lunes");
+               break;//fin de caos y del switch
+        case 2:
+               System.out.println("Martes");
+               break;//fin de caos y del switch
+        case 3:
+               System.out.println("Miercoles");
+               break;//fin de caos y del switch
+        case 4:
+               System.out.println("Jueves");
+               break;//fin de caos y del switch
+        case 5:
+               System.out.println("Viernes");
+               break;//fin de caos y del switch
+        case 6:
+               System.out.println("Sabado");
+               break;//fin de caos y del switch
+        case 7:
+               System.out.println("Domingo");
+               break;//fin de caos y del switch
+       }
+    }
+    
+}
